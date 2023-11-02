@@ -1,28 +1,28 @@
 {
 	"folders": [
 		{
-			"path": "../example/cluster-leader-election"
+			"path": "../examples/cluster-leader-election"
 		},
 		{
-			"path": "../example/file-split-log-xml"
+			"path": "../examples/file-split-log-xml"
 		},
 		{
-			"path": "../example/health"
+			"path": "../examples/health"
 		},
 		{
-			"path": "../example/kamelet-chucknorris"
+			"path": "../examples/kamelet-chucknorris"
 		},
 		{
-			"path": "../example/observability"
+			"path": "../examples/observability"
 		},
 		{
-			"path": "../example/timer-log-kotlin"
+			"path": "../examples/timer-log-kotlin"
 		},
 		{
-			"path": "../example/timer-log-main"
+			"path": "../examples/timer-log-main"
 		},
 		{
-			"path": "../example/timer-log"
+			"path": "../examples/timer-log"
 		}
 	]
 }
