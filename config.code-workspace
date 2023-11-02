@@ -1,10 +1,28 @@
 {
 	"folders": [
 		{
-			"path": "../demo1"
+			"path": "../example/cluster-leader-election"
 		},
 		{
-			"path": "../demo2"
+			"path": "../example/file-split-log-xml"
+		},
+		{
+			"path": "../example/health"
+		},
+		{
+			"path": "../example/kamelet-chucknorris"
+		},
+		{
+			"path": "../example/observability"
+		},
+		{
+			"path": "../example/timer-log-kotlin"
+		},
+		{
+			"path": "../example/timer-log-main"
+		},
+		{
+			"path": "../example/timer-log"
 		}
 	]
 }
