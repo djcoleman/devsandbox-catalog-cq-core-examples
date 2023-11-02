@@ -9,7 +9,7 @@ projects:
 - name: catalog
   git:
     remotes:
-      origin: https://github.com/djcoleman/devsandbox-catalog-cq-examples.git
+      origin: https://github.com/djcoleman/devsandbox-catalog-cq-core-examples.git
 
 - name: examples
   git:
