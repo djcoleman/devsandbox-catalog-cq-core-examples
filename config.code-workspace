@@ -23,6 +23,15 @@
 		},
 		{
 			"path": "../examples/timer-log"
-		}
+		},
+		{
+			"path": "../examples/cxf-soap"
+		},
+		{
+			"path": "../examples/http-log"
+		},
+		{
+			"path": "../examples/rest-json"
+		},
 	]
 }
