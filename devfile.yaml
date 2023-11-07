@@ -6,7 +6,7 @@ metadata:
 
 projects:
 
-- name: catalog
+- name: core-catalog
   git:
     remotes:
       origin: https://github.com/djcoleman/devsandbox-catalog-cq-core-examples.git
@@ -59,7 +59,8 @@ components:
           value: '5001'
         - name: WALKTHROUGH_LOCATIONS
           value: >-
-            https://github.com/djcoleman/devsandbox-category-cq-database?walkthroughsFolder=/docs/labs
+            https://github.com/djcoleman/devsandbox-category-cq-core?walkthroughsFolder=/docs/labs
+            https://github.com/djcoleman/devsandbox-category-cq-web?walkthroughsFolder=/docs/labs
       endpoints:
         - name: tutorial
           exposure: public
@@ -129,5 +130,23 @@ commands:
       commandLine: mvn quarkus:dev
       component: tools
       workingDir: /projects/examples/timer-log
+
+  - id: start-cxf-soap
+    exec:
+      commandLine: mvn quarkus:dev
+      component: tools
+      workingDir: /projects/examples/cxf-soap
+
+  - id: start-http-log
+    exec:
+      commandLine: mvn quarkus:dev
+      component: tools
+      workingDir: /projects/examples/http-log
+
+  - id: start-rest-json
+    exec:
+      commandLine: mvn quarkus:dev
+      component: tools
+      workingDir: /projects/examples/rest-json
 
 
