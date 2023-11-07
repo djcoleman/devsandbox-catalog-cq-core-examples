@@ -59,7 +59,7 @@ components:
           value: '5001'
         - name: WALKTHROUGH_LOCATIONS
           value: >-
-            https://github.com/djcoleman/devsandbox-category-cq-core?walkthroughsFolder=/docs/labs
+            https://github.com/djcoleman/devsandbox-category-cq-core?walkthroughsFolder=/docs/labs,
             https://github.com/djcoleman/devsandbox-category-cq-web?walkthroughsFolder=/docs/labs
       endpoints:
         - name: tutorial
